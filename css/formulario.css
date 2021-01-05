@@ -1,0 +1,80 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #f6f4f4;
+}
+h1,
+h2 {
+  padding: 20px;
+  margin: 30 auto;
+}
+
+/*fieldset {
+  width: auto;
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #88a6b9;
+}
+legend {
+  font-weight: bold;
+}
+label {
+  width: max-content;
+  display: block;
+  cursor: pointer;
+}
+input[type="text"] {
+  width: 20em;
+}
+textarea {
+  width: 20em;
+  height: 10em;
+}
+#container {
+  border: 1px solid gray;
+  width: 720px;
+  margin: 0 auto;
+}
+.radio {
+  margin-right: 1empx;
+}
+*/
+
+/*
+*****************************
+Novo formulário
+******************************
+*/
+fieldset {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+}
+legend {
+  font-weight: bold;
+}
+label {
+  width: max-content;
+  display: block;
+  cursor: pointer;
+}
+/*Apenas inputs com o type text serão formatados*/
+input[type="text"] {
+  /* tamanhos em % dariam a impressão de responsividade*/
+  width: 20em;
+}
+textarea {
+  width: 20em;
+  height: 10em;
+}
+/*[type="text"] <- esse comando ainda é novo. pode causar problemas em vários browsers*/
+
+input.radio,
+input.checkbox,
+input.submit {
+  width: auto;
+}
+.radio {
+  margin-right: 1em;
+}

@@ -1,0 +1,28 @@
+.caixa {
+  width: 400px;
+  background: #dedede url(../imagens/fundo-arredondamento.png) repeat-y;
+}
+/*
+.caixa h2 {
+  padding: 10px 20px 0 20px;
+}
+p {
+  padding: 0 20px 20px 20px;
+  background: url(../imagens/baixo2.png) no-repeat left bottom;
+}
+*/
+.caixa h2 {
+  padding: 10px 20px 0 20px;
+  background: url(../imagens/topo2.png) no-repeat left top;
+}
+.caixa p {
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+/*Essa class define a borda inferior- não se preocupe com o tamanho do texto aqui 
+*/
+.caixa .ultimo {
+  background: url(../imagens/baixo2.png) no-repeat left bottom;
+  width: 400px;
+  height: 24px; /*Altura da imagem baixo 2*/
+}
