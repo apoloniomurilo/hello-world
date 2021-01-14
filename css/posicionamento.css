@@ -1,0 +1,26 @@
+body{
+    background: #007fc7;
+}
+#container{
+    background: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+h1{
+  width: auto;
+}
+p{
+    width: 300px;
+   
+}
+.relative{
+    position: absolute;
+    /*Para utilizar posicionamento é necessário utilizar o TOP BOTTOM RIGHT LEFT*/
+    border: 1px solid red;
+    /*top: 20px;Será realinhado 20px de cima para baixo*/
+    /*left: 80px;Ele se move 80px a partir da posição inicial a esquerda - ele empurra da esquerda para direita*/
+    top: 0px;/* Ele é empurrado a partir do top para cima*/
+    right: -50px;  /*Ele é empurrado do seu ponto inicial esquero para */
+    /*Quando o numero é positivo ele empurra do seu ponto inicial para o oposto*/
+}
