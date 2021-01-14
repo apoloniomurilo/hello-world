@@ -24,3 +24,38 @@ p{
     right: -50px;  /*Ele é empurrado do seu ponto inicial esquero para */
     /*Quando o numero é positivo ele empurra do seu ponto inicial para o oposto*/
 }
+#box{
+    position: absolute;
+    border: 10px solid red;
+    margin: 0 auto;
+    height: 720px;
+    width:  70%;
+}
+.caixa1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.caixa2{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.caixa3{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-100px)
+}
