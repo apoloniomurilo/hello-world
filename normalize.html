@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normal.css">
+    <title>Normalize & Form</title>
+</head>
+<body>
+    <!--Formulário simples para Tentar fazer algo maior um dia.
+    Quem sabe eu consiga implementar esta formatação no meu blog pessoal um dia. Acrescentei um Menu para dar  uma impressão de navegação-->
+    <header>
+      
+        <nav>
+            <ul>
+                <li> <a href="#">Placeholder</a></li>
+                <li> <a href="#">Placeholder</a></li>
+                <li> <a href="#">Placeholder</a></li>
+                <li> <a href="#">Placeholder</a></li>
+                <li> <a href="#">Placeholder</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form action="/validacao.html"_blank>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="tel" id="telefone" placeholder="(XX) 99999-9999">
+            </fieldset>
+            <fieldset>
+                <legend>Sugestões/Críticas</legend>
+                <textarea name="text" id="suges-crit" cols="60" rows="5" required></textarea>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
